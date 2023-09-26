@@ -3,8 +3,14 @@ import { motion } from "framer-motion";
 
 function FormPage() {
   return (
-    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="p-8 max-w-md mx-auto mt-16 bg-white shadow-lg rounded required">
+    <>
+    <div className="w-screen h-screen bg-[#2c1262] flex justify-center items-center">
+    <img src="/x.png" alt="Logo" className=" opacity-75 h-full absolute w-auto" />
+    <motion.div initial={{ opacity: 0 }} animate={{ opacity: 1 }} exit={{ opacity: 0 }} className="p-4 bg-[#2c1262] w-11/12 md:w-96 mx-auto bg-white shadow-lg rounded z-10 required">
       <form action="https://docs.google.com/forms/d/e/1FAIpQLScTAT3t-z4a_spCLHZjQnjBf1_4wYdCK-XYKcwF7xmCfKfG9A/formResponse" >
+        <div className="flex justify-center">
+          <img src="/x.png" alt="Logo" className="h-16  w-auto" /> 
+        </div> 
         <div className="mb-4">
           <label className="block mb-2">Name</label>
           <input type="text" name="entry.1512446941" className="w-full p-2 border rounded required" />
@@ -57,13 +63,15 @@ function FormPage() {
           <label className="block mb-2">Phone</label>
           <input type="text" name="entry.116614212" className="w-full p-2 border rounded required" />
         </div>
-        
-        {/* ... More fields for section, email, phone ... */}
-        <button type="submit" className="mt-4 bg-blue-500 hover:bg-blue-700 text-white font-bold py-2 px-4 rounded required">
+        <div className="flex justify-center">
+        <button type="submit" className="mt-4 bg-[#db1068] text-white font-bold py-2 px-4 rounded required">
           Submit
         </button>
+        </div>
       </form>
     </motion.div>
+    </div>
+    </>
   );
 }
 

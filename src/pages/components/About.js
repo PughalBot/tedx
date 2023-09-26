@@ -5,11 +5,11 @@ const About = () => {
   return (
     <>
     <Head>
-        <meta name="description" content="Crowdento is an Event management company that excels in crafting unforgettable events. Merging local traditions with modern flair, we orchestrate experiences that resonate. Driven by precision and creativity, we're redefining gatherings in Chennai."/>
+    <meta name="description" content="TEDxSriSairamEngineeringCollege is a local manifestation of the TEDx movement, driven by a passionate and dynamic team of students, faculty members, and staff at Sri Sairam Engineering College. Our mission is to amplify the voice of innovative thinkers and creative minds within our community. We believe that ideas have the power to shape the world, and our event serves as a platform for these ideas to flourish."/>
         <meta name='viewport' content='width=device-width, initial-scale=1' />
-        
-        <link rel='icon' href='/cc1.png' />
-        <title>Crowdento Events</title>
+        <meta property='og:image' content="/x.png"/>
+        <link rel='icon' href='/x.png' />
+        <title>TedxSriSairamEngineeringCollege</title>
     </Head>
     <motion.section 
       id="about" 
