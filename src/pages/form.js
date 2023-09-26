@@ -1,13 +1,50 @@
 import { useState } from "react";
+import Head from "next/head";
 import { motion } from "framer-motion";
 
 function FormPage() {
+  const [submitted, setSubmitted] = useState(false);
+
+  const handleFormSubmit = () => {
+    setSubmitted(true);
+  };
+
+  const handleIframeLoad = () => {
+    if (submitted) {
+      window.location.href = '/success';
+    }
+  };
+
+
   return (
     <>
+    <Head>
+        <meta name="description" content="TEDxSriSairamEngineeringCollege is a local manifestation of the TEDx movement, driven by a passionate and dynamic team of students, faculty members, and staff at Sri Sairam Engineering College. Our mission is to amplify the voice of innovative thinkers and creative minds within our community. We believe that ideas have the power to shape the world, and our event serves as a platform for these ideas to flourish."/>
+        <meta name='viewport' content='width=device-width, initial-scale=1' />
+        <meta property='og:image' content="/x.png"/>
+        <link rel='icon' href='/x.png' />
+        <title>TedxSriSairamEngineeringCollege</title>
+    </Head>
     <div className="w-screen h-screen bg-[#2c1262] flex justify-center items-center">
     <img src="/x.png" alt="Logo" className=" opacity-75 md:h-full absolute w-auto" />
     <div className="p-4 bg-white w-11/12 bg-opacity-80 md:w-96 mx-auto shadow-3xl rounded-lg z-10 required">
-      <form action="https://docs.google.com/forms/d/e/1FAIpQLScTAT3t-z4a_spCLHZjQnjBf1_4wYdCK-XYKcwF7xmCfKfG9A/formResponse" >
+    <script type="text/javascript">
+        {`
+          var submitted = ${submitted.toString()};
+        `}
+      </script>
+      <iframe
+        name="hiddenConfirm"
+        id="hiddenConfirm"
+        style={{ display: 'none' }}
+        onLoad={handleIframeLoad}
+      />
+      <form
+        action="https://docs.google.com/forms/d/e/1FAIpQLScTAT3t-z4a_spCLHZjQnjBf1_4wYdCK-XYKcwF7xmCfKfG9A/formResponse"
+        method="post"
+        target="hiddenConfirm"
+        onSubmit={handleFormSubmit}
+      >
         <div className="flex justify-center">
           <img src="/x.png" alt="Logo" className="h-16  w-auto" /> 
         </div> 
