@@ -23,11 +23,6 @@ const Contact = () => {
       <p className="font-js md:text-xl text-center text-[#1a154b] w-11/12 lg:w-2/5">If you have any questions or would like more information about our services, please feel free to contact us. We're here to help!</p>
       
       <div className="grid grid-cols-4 gap-4 md:gap-10 md:pt-10">
-        <Link href="https://www.instagram.com/tedx_srisairamengclg_23" target="_blank">
-        <div className="flex flex-col items-center">
-          <img src="/insta.png" alt="Phone" className="w-6 md:w-10 h-auto" />
-        </div>
-        </Link>
 
         <Link href="tel:+919840457238" target="_blank">
         <div className="flex flex-col items-center ">
@@ -35,12 +30,19 @@ const Contact = () => {
         </div>
         </Link>
 
-        <Link href="mailto:contact@crowdento.com" target="_blank">
+        <Link href="mailto:tedxsairam2023@gmail.com" target="_blank">
         <div className="flex flex-col items-center">
           <img src="/email.png" alt="Phone" className="w-6 md:w-10 h-auto" />
         </div>
         </Link>
-      <Link href="https://wa.me/919840457238" target="_blank">
+
+        <Link href="https://www.instagram.com/tedx_srisairamengclg_23" target="_blank">
+        <div className="flex flex-col items-center">
+          <img src="/insta.png" alt="Phone" className="w-6 md:w-10 h-auto" />
+        </div>
+        </Link>
+
+        <Link href="https://wa.me/919840457238" target="_blank">
         <div className="flex flex-col items-center">
           <img src="/wap.png" alt="Phone" className="w-6 md:w-10 h-auto" />
         </div>
