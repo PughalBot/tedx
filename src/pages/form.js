@@ -101,7 +101,7 @@ function FormPage() {
         </div>
         <div className="mb-4">
           <label className="block text-[#db1068] font-js font-bold mb-2">Phone</label>
-          <input type="text" name="entry.116614212" className="w-full p-2 border-[#db1068] rounded required" placeholder="+919840457238"/>
+          <input type="text" name="entry.116614212" className="w-full p-2 border-[#db1068] rounded required" placeholder="+91XXXXXXXXX"/>
         </div>
         <div className="flex justify-center">
         <button type="submit" className="mt-4 bg-[#db1068] font-js text-white font-bold py-2 px-4 rounded required">
