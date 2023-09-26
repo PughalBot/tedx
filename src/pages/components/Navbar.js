@@ -10,7 +10,7 @@ const Navbar = () => {
   };
 
   return (
-    <div className=" font-hj  p-2 mx-4 md:p-2 sticky rounded-full top-1 z-10 bg-[#db1068] border-white border-2">
+    <div className=" font-hj  p-2 mx-4 md:p-2 sticky rounded-full top-2 z-10 bg-[#db1068] border-white border-2">
       <div className="flex justify-between">
         {/* Desktop navbar items */}
         <ul className={`flex space-x-4 w-full text-lg pl-4 pr-4 md:pl-8 md:pr-8 justify-between md:flex`}>

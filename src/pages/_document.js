@@ -11,6 +11,7 @@ export default function Document() {
       <link href="https://fonts.googleapis.com/css2?family=Big+Shoulders+Display&display=swap" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/css2?family=Handjet:wght@500&family=Josefin+Sans&family=Nabla&display=swap" rel="stylesheet"></link>
       <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500&display=swap" rel="stylesheet"></link>
+      <link href="https://fonts.googleapis.com/css2?family=Lilita+One&family=Poppins:wght@400;700&family=Teko&display=swap" rel="stylesheet"></link>
       <body>
         <Main />
         <NextScript />
