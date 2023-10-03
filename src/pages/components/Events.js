@@ -21,7 +21,7 @@ const About = () => {
     >
       <h1 className="font-hj text-5xl md:text-6xl font-medium text-white">Get Your tickets</h1>
       <p className="font-js text-[#db1068] text-xs md:text-xl text-center w-11/12 md:w-4/6 pt-2 pb-4">Ready to embark on a journey of profound ideas? Secure your spot at our upcoming TEDx event by clicking the RSVP button below.</p>
-      <Link href="/form">
+      <Link href="https://rzp.io/l/TedxGoldPass">
       <button className="px-4 py-2 bg-[#db1068] text-center rounded-full font-bold text-lg text-white font-sg">
       RSVP NOW!!
       </button>
