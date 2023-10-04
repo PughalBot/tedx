@@ -48,11 +48,11 @@ function FormPage() {
         <div className="flex justify-center">
           <img src="/x.png" alt="Logo" className="h-16  w-auto" /> 
         </div> 
-        <div className="mb-4">
+        <div className="mb-2">
           <label className="block text-[#db1068] font-js font-bold mb-2">Name</label>
           <input type="text" name="entry.1512446941" className="w-full p-2 rounded required" placeholder="Name"/>
         </div>
-        <div className="mb-4">
+        <div className="mb-2">
           <label className="block text-[#db1068] font-js font-bold mb-2">Year</label>
           <select name="entry.586898713" className="w-full p-2 border-[#db1068] rounded required">
             <option value="">Select Year</option>
@@ -63,7 +63,7 @@ function FormPage() {
             
           </select>
         </div>
-        <div className="mb-4">
+        <div className="mb-2">
           <label className="block text-[#db1068] font-js font-bold mb-2">Department</label>
           <select name="entry.374063172" className="w-full p-2 border-[#db1068] rounded required">
             <option value="">Select Department</option>
@@ -85,7 +85,7 @@ function FormPage() {
             <option value="M.Tech CSE">M.Tech CSE</option>
           </select>
         </div>
-        <div className="mb-4">
+        <div className="mb-2">
           <label className="block text-[#db1068] font-js font-bold mb-2">Section</label>
           <select name="entry.1292046826" className="w-full p-2 border-[#db1068] rounded required">
             <option value="">Select Section</option>
@@ -95,13 +95,21 @@ function FormPage() {
             <option value="D">D</option>
           </select>
         </div>
-        <div className="mb-4">
+        <div className="mb-2">
           <label className="block text-[#db1068] font-js font-bold mb-2">Email</label>
           <input type="email" name="entry.663978457" className="w-full p-2 border-[#db1068] rounded required" placeholder="example@example.com" />
         </div>
-        <div className="mb-4">
+        <div className="mb-2">
           <label className="block text-[#db1068] font-js font-bold mb-2">Phone</label>
           <input type="text" name="entry.116614212" className="w-full p-2 border-[#db1068] rounded required" placeholder="+91XXXXXXXXX"/>
+        </div>
+        <div className="mb-2">
+          <label className="block text-[#db1068] font-js font-bold mb-2">Pass Type</label>
+          <select name="entry.23137580" className="w-full p-2 border-[#db1068] rounded required">
+            <option value="">Select Section</option>
+            <option value="General Pass">General Pass</option>
+            <option value="Gold Pass">Gold Pass</option>
+          </select>
         </div>
         <div className="flex justify-center">
         <button type="submit" className="mt-4 bg-[#db1068] font-js text-white font-bold py-2 px-4 rounded required">
