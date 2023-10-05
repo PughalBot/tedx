@@ -23,7 +23,7 @@ function FormPage() {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta property='og:image' content="/x.png"/>
         <link rel='icon' href='/x.png' />
-        <title>TedxSriSairamEngineeringCollege</title>
+        <title>RSVP Form</title>
     </Head>
     <div className="w-screen h-screen bg-[#2c1262] flex justify-center items-center">
     <img src="/x.png" alt="Logo" className=" opacity-75 md:h-full absolute w-auto" />

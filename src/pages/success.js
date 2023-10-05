@@ -26,7 +26,7 @@ const Success = () => {
         <meta name='viewport' content='width=device-width, initial-scale=1' />
         <meta property='og:image' content="/x.png"/>
         <link rel='icon' href='/x.png' />
-        <title>TedxSriSairamEngineeringCollege</title>
+        <title>RSVP Complete</title>
       </Head>
       <motion.section 
         initial="initial"
