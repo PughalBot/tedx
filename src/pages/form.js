@@ -107,8 +107,8 @@ function FormPage() {
           <label className="block text-[#db1068] font-js font-bold mb-2">Pass Type</label>
           <select name="entry.23137580" className="w-full p-2 border-[#db1068] rounded required">
             <option value="">Select Section</option>
-            <option value="General Pass">General Pass</option>
-            <option value="Gold Pass">Gold Pass</option>
+            <option value="Premium Pass">Premium Pass</option>
+            <option value="Standard Pass">Standard Pass</option>
           </select>
         </div>
         <div className="flex justify-center">
