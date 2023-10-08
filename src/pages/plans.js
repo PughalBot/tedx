@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl text-center text-[#db1068] font-hj">Choose Your Pass</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           
-        <Link href="https://rzp.io/l/TedxGoldPass">
+        <Link href="https://rzp.io/l/Tedxpremium">
           <motion.div
             whileHover={{ scale: 1.05 }}
             className="p-6 bg-yellow-400 md:w-80 bg-cover md:h-hit rounded-3xl"
@@ -32,7 +32,7 @@ export default function Home() {
           </Link>
 
 
-          <Link href="https://rzp.io/l/GeneralPass">
+          <Link href="https://rzp.io/l/StandardPass">
             <motion.div
                 whileHover={{ scale: 1.05 }}
                 className="p-6 bg-gray-200 md:w-80 md:h-fit rounded-3xl"
