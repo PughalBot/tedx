@@ -18,7 +18,7 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl text-center text-[#db1068] font-hj">Choose Your Pass</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           
-        <Link href="https://wa.me/919840457238">
+        <Link href="https://forms.gle/DoEuQbXLdXLLtGY49">
           <motion.div
             whileHover={{ scale: 1.05 }}
             className="p-6 bg-yellow-400 md:w-80 bg-cover md:h-hit rounded-3xl"
@@ -33,7 +33,7 @@ export default function Home() {
           </Link>
 
 
-          <Link href="https://wa.me/919840457238">
+          <Link href="https://forms.gle/DUudNUcKXWVAkMGh8">
             <motion.div
                 whileHover={{ scale: 1.05 }}
                 className="p-6 bg-gray-200 md:w-80 md:h-fit rounded-3xl"
