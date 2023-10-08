@@ -23,11 +23,12 @@ export default function Home() {
             whileHover={{ scale: 1.05 }}
             className="p-6 bg-yellow-400 md:w-80 bg-cover md:h-hit rounded-3xl"
           >
-            <h2 className="text-xl font-bold text-center mb-4">Premium Pass - <span className='text-sm font-semibold'>3 of 100</span></h2>
+            <h2 className="text-xl font-bold text-center mb-4">Premium Pass - <span className='text-sm font-semibold'>₹735</span></h2>
             <p className='text-sm md:text-md'>Elevate your TEDx experience with the Premium Pass. Immerse yourself in exclusive sessions and cherish added memorabilia that commemorates your time with us.</p>
             <p className='text-sm md:text-md mt-4'><span className='font-semibold'>◆ Interactive Session with Speakers: </span>Engage in intimate conversations and deepen your understanding over a luxurious high tea with our esteemed speakers.</p>
             <p className='text-sm md:text-md mt-4'><span className='font-semibold'>◆ Exclusive Tees: </span>Elevate your style with our exclusive TEDx-themed t-shirts</p>
             <p className='text-sm md:text-md mt-4 mb-6'><span className='font-semibold'>◆ Relish all the advantages that come with the Standard Pass: </span>Elevate your TEDxSriSairamEngineeringCollege experience with this premium offering</p>
+            <p className='text-sm md:text-md text-center font-bold  mt-4 mb-4'>5 of 100</p>
           </motion.div>
           </Link>
 
@@ -37,11 +38,13 @@ export default function Home() {
                 whileHover={{ scale: 1.05 }}
                 className="p-6 bg-gray-200 md:w-80 md:h-fit rounded-3xl"
             >
-                <h2 className="text-xl font-bold text-center mb-4">Standard Pass - <span className='text-sm font-semibold'>0 of 350</span></h2>
+                <h2 className="text-xl font-bold text-center mb-4">Standard Pass - <span className='text-sm font-semibold'>₹615</span></h2>
                 <p className='text-sm md:text-md'>Experience TEDx at its core with our Standard Pass. Dive into a day of inspiration and enlightenment, and take home memories curated just for you. Your Standard Pass includes:</p>
                 <p className='text-sm md:text-md mt-4'><span className='font-semibold'>◆ Gift Bag: </span>Indulge in an exclusive Gift Bag thoughtfully curated by TEDxSriSairamEngineeringCollege</p>
                 <p className='text-sm md:text-md mt-4'><span className='font-semibold'>◆ Certificate: </span>Commemorate your participation with an official Attendee Certificate, a token of your TEDxSriSairamEngineeringCollege experience.</p>
                 <p className='text-sm md:text-md mt-4 mb-1'><span className='font-semibold'>◆ Lunch: </span>Savor a delectable lunch spread prepared to tantalize your taste buds, ensuring a delightful culinary journey during your TEDx event.</p>
+                <p className='text-sm md:text-md text-center font-bold mt-4 mb-1'>0 of 100</p>
+
             </motion.div>
           </Link>
 
