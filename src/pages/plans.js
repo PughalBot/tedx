@@ -18,7 +18,6 @@ export default function Home() {
         <h1 className="text-4xl md:text-5xl text-center text-[#db1068] font-hj">Choose Your Pass</h1>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           
-        <Link href="https://forms.gle/DoEuQbXLdXLLtGY49">
           <motion.div
             whileHover={{ scale: 1.05 }}
             className="p-6 bg-yellow-400 md:w-80 bg-cover md:h-hit rounded-3xl"
@@ -28,10 +27,8 @@ export default function Home() {
             <p className='text-sm md:text-md mt-4'><span className='font-semibold'>◆ Interactive Session with Speakers: </span>Engage in intimate conversations and deepen your understanding over a luxurious high tea with our esteemed speakers.</p>
             <p className='text-sm md:text-md mt-4'><span className='font-semibold'>◆ Exclusive Tees: </span>Elevate your style with our exclusive TEDx-themed t-shirts</p>
             <p className='text-sm md:text-md mt-4 mb-6'><span className='font-semibold'>◆ Relish all the advantages that come with the Standard Pass: </span>Elevate your TEDxSriSairamEngineeringCollege experience with this premium offering</p>
-            <p className='text-sm md:text-md text-center font-bold  mt-4 mb-4'>89 of 100</p>
+            <p className='text-sm md:text-md text-center font-bold  mt-4 mb-4'>SOLD!!!!!!</p>
           </motion.div>
-          </Link>
-
 
           <Link href="https://forms.gle/DUudNUcKXWVAkMGh8">
             <motion.div
@@ -43,7 +40,7 @@ export default function Home() {
                 <p className='text-sm md:text-md mt-4'><span className='font-semibold'>◆ Gift Bag: </span>Indulge in an exclusive Gift Bag thoughtfully curated by TEDxSriSairamEngineeringCollege</p>
                 <p className='text-sm md:text-md mt-4'><span className='font-semibold'>◆ Certificate: </span>Commemorate your participation with an official Attendee Certificate, a token of your TEDxSriSairamEngineeringCollege experience.</p>
                 <p className='text-sm md:text-md mt-4 mb-1'><span className='font-semibold'>◆ Lunch: </span>Savor a delectable lunch spread prepared to tantalize your taste buds, ensuring a delightful culinary journey during your TEDx event.</p>
-                <p className='text-sm md:text-md text-center font-bold mt-4 mb-1'>127 of 350</p>
+                <p className='text-sm md:text-md text-center font-bold mt-4 mb-1'>196 of 350</p>
 
             </motion.div>
           </Link>
